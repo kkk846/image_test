@@ -43,6 +43,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# ADB (keep platform-tools but ignore zip)
-adb/*.zip
