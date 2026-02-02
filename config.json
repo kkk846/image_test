@@ -1,0 +1,32 @@
+{
+  "adb": {
+    "adb_path": "adb/platform-tools-latest-windows/platform-tools/adb.exe",
+    "device_id": "",
+    "timeout": 30
+  },
+  "camera": {
+    "capture_delay": 2,
+    "image_format": "jpg",
+    "quality": 100
+  },
+  "analysis": {
+    "brightness_threshold": {
+      "min": 30,
+      "max": 230
+    },
+    "contrast_threshold": {
+      "min": 20,
+      "max": 180
+    },
+    "sharpness_threshold": {
+      "min": 50
+    },
+    "noise_threshold": {
+      "max": 40
+    }
+  },
+  "output": {
+    "images_dir": "output/images",
+    "reports_dir": "reports"
+  }
+}
